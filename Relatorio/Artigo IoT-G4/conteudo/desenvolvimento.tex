@@ -1,0 +1,48 @@
+
+\section{Routing Protocols}
+Traditional mesh routing solutions have focused on simply finding the best route to the gateway to reach the Internet. Two important underlying assumptions of these routing solutions are: 1) all gateway nodes are equally capable in terms of resources such as bandwidth capacity and delay to connect to the Internet; and/or 2) the capacity bottleneck is in the wireless multihop portion of the WMN \cite{Prashanth2015}.
+
+Due to the severe energy constraints of large number of densely deployed sensor nodes, it requires a suite of network protocols to implement various network control and management functions such as synchronization, node localization, and network security. The traditional routing protocols have several shortcomings when applied to WSNs, which are mainly due to the energy-constrained nature of such networks \cite{Shio2010}.
+
+OSPF is one of the most studied and well-known link state routing protocols to date. Being a link state protocol, every router maintains a complete map of the network topology. Consequently, at any given moment a router can compute the path to any destination in the network, based on its existing knowledge about the network \cite{Holter2010}.
+
+\section{Environment Sensor System}
+In many WSN applications, the deployment of sensor nodes is performed in an ad hoc fashion without careful planning and engineering. Once deployed, the sensor nodes must be able to autonomously organize themselves into a wireless communication network. Sensor nodes are battery-powered and are expected to operate without attendance for a relatively long period of time \cite{Shio2010}.
+
+Computers have to be kept in a specific environment to function efficiently. Conditions such as heat, cold, dust and excessive humidity all can damage and lessen the performance of a computer. External and internal temperature especially causes fluctuations of performance, although a computer is more vulnerable to heat than to cold.
+
+\subsection{Temperature}
+\subsubsection{Overheating}
+Electronic devices are vulnerable to overheating. The electronic components operate at a specific current induced by a voltage. The sensitivity of the components means that even a small fluctuation in voltage is dangerous. Excessive heat lowers the electrical resistance of objects, therefore increasing the current. In addition, slowdown is a result of overheating. Components can shut down when overheated.
+
+\subsubsection{Cold Temperatures}
+Cold temperatures are not as dangerous to a electronic devices as overheating is, but problems can still occurs. If Electronic devices get too cold when left powered off, their components can be damaged upon boot because the electricity heats the circuit. As electricity travels through a circuit, it heats rapidly and causes the matter to expand. Rapid expansion, when close to matter that remains the same size, it distorts it. This can bend or break component.
+
+\subsubsection{Ideal Operating Temperatures}
+Semiconductor parts are most often specified for use in the “commercial” 0 to 70°C and, to a lesser extent, in the “industrial” -40 to 85°C operating temperature range. These operating temperature ratings generally satisfy the demands of the dominant semiconductor customers in the computer, telecommunications, and consumer electronic industries \cite{Mishra2004}.
+
+\subsection{Humidity}
+Excessive humidity or dry air can exaggerate the effects of extreme temperatures on computer components. For example, dry air causes static electricity to build up. Coupled with the increased conductivity from heat, this can cause errant discharges. Conversely, cold and humid areas create condensation and water, which can create a short circuit.
+
+\subsection{Luminosity}
+In the wireless sensor network context, the luminosity factor may be extremely decisively, once the network nodes are generally supplied by batteries that can be recharged by solar panels.
+
+\section{Context-aware routing}
+The Reconfiguration Manager performs cross-layer context monitoring throughout the system and reorganizes, in co-ordination with the Context Source Manager, the mappings between context fact types in the context models and appropriate sources. This is the component in ACoMS that delivers its self-healing capabilities.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{figs/topology.eps}
+\caption{Wireless Network topology.}
+\label{Fig01}
+\end{figure}
+
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.4\textwidth]{/figs/topology.eps}
+%\caption{Network topology.}
+%\label{fig_topology}
+%\end{figure}
+
+\subsubsection{Environment context Criteria Decision}
