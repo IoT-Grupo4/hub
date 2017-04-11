@@ -1,5 +1,6 @@
 all: *.tex
-	latexmk -pdf -bibtex-cond -quiet
+	latexmk -pdf -bibtex-cond IoT-G4.tex
+	# latexmk -pdf -bibtex-cond IoT-G4.tex -quiet
 	# remove -quiet for better verbose
 
 clean:
