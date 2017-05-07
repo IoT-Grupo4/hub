@@ -1,0 +1,3 @@
+[submodule "Relatorio/externos"]
+	path = Relatorio/externos
+	url = https://github.com/IoT-Grupo4/Dados_Sensores.git
