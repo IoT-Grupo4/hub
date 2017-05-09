@@ -10,6 +10,13 @@ O relatório deve ser escrito em inglês, utilizando [LaTeX](https://pt.wikibook
 
 Devido a produção dos arquivos estarem em repositórios externos, vê-se a necessidade do uso de [submodules](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/) para manter a sincronização do arquivos externos.
 
+Para baixar o conteúdo dos submodulos de dentro desse repositório:
+
+```bash
+git submodule init
+git submodule update
+```
+
 # Resumos
 
 Os resumos dos artigos deverão estar em [LaTeX](https://pt.wikibooks.org/wiki/Latex) também.
