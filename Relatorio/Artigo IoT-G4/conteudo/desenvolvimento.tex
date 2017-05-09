@@ -103,3 +103,80 @@ A resistência do LDR varia de forma inversamente proporcional à quantidade de 
 
 
 %% ------------------   Traduzir   ------------------
+
+% ../externos/dados/LDR.csv
+
+\begin{figure}[!tb]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          width=\linewidth, % Scale the plot to \linewidth
+          grid=major, 
+          grid style={dashed,gray!30},
+          % xlabel=X Axis $U$, % Set the labels
+          ylabel=Light,
+          % x unit=\si{\volt}, % Set the respective units
+          % y unit=\si{\ampere},
+          legend style={at={(0.5,-0.2)},anchor=north},
+          x tick label style={rotate=90,anchor=east}
+        ]
+        \addplot 
+        % add a plot from table; you select the columns by using the actual name in
+        % the .csv file (on top)
+        table[x=x,y=light,col sep=comma] {../externos/dados/LDR.csv}; 
+        % \legend{Plot}
+      \end{axis}
+    \end{tikzpicture}
+    \caption{Light read from sensor}
+  \end{center}
+\end{figure}
+
+\begin{figure}[!tb]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          width=\linewidth, % Scale the plot to \linewidth
+          grid=major, 
+          grid style={dashed,gray!30},
+          % xlabel=X Axis $U$, % Set the labels
+          ylabel=Temperature,
+          % x unit=\si{\volt}, % Set the respective units
+          % y unit=\si{\ampere},
+          legend style={at={(0.5,-0.2)},anchor=north},
+          x tick label style={rotate=90,anchor=east}
+        ]
+        \addplot 
+        % add a plot from table; you select the columns by using the actual name in
+        % the .csv file (on top)
+        table[x=x,y=temperature,col sep=comma] {../externos/dados/DHT.csv}; 
+        % \legend{Plot}
+      \end{axis}
+    \end{tikzpicture}
+    \caption{Temperature read from sensor}
+  \end{center}
+\end{figure}
+
+\begin{figure}[!tb]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          width=\linewidth, % Scale the plot to \linewidth
+          grid=major, 
+          grid style={dashed,gray!30},
+          % xlabel=X Axis $U$, % Set the labels
+          ylabel=Humidity,
+          % x unit=\si{\volt}, % Set the respective units
+          % y unit=\si{\ampere},
+          legend style={at={(0.5,-0.2)},anchor=north},
+          x tick label style={rotate=90,anchor=east}
+        ]
+        \addplot 
+        % add a plot from table; you select the columns by using the actual name in
+        % the .csv file (on top)
+        table[x=x,y=humidity,col sep=comma] {../externos/dados/DHT.csv}; 
+        % \legend{Plot}
+      \end{axis}
+    \end{tikzpicture}
+    \caption{Humidity read from sensor}
+  \end{center}
+\end{figure}
