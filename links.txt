@@ -1,0 +1,9 @@
+https://www.w3.org/2005/Incubator/ssn/ssnx/ssn
+http://www.academia.edu/20769070/ONALIN_Ontology_and_Algorithm_for_Indoor_Routing
+http://ieeexplore.ieee.org/document/5089030/?reload=true
+http://www.wurvoc.org/om-latex/om-documentation.pdf
+http://simia.net/wiki/OWL_luna,_nicer_latex,_OWL/XML_to_Abstract_Syntax,_and_more
+http://stackoverflow.com/questions/13619660/writing-ontologies-in-dl-syntax
+http://ceur-ws.org/Vol-1272/paper_96.pdf
+https://www.sharelatex.com/learn/Writing_your_own_class
+https://www.youtube.com/watch?v=1B6Xwn-P3kQ
