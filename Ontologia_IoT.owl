@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-2 "http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#comunicaCom -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;comunicaCom">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#implementa -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;implementa">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#oferece -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;oferece">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#temParâmetro -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;temParâmetro">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#éObservadoPor -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;éObservadoPor">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#éOperadoPor -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-2;éOperadoPor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#TemValor -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;TemValor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#temEndereço -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-2;temEndereço"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#A_Caracteristicas -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;A_Caracteristicas">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Ambiente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Ambiente -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Ambiente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#CamadaDeEnlace -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;CamadaDeEnlace">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_ProtocolosDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#CamadaDeRede -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;CamadaDeRede">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_ProtocolosDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#CamadaDeTransporte -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;CamadaDeTransporte">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_ProtocolosDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#EndereçoDeRede -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;EndereçoDeRede">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_InterfaceDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#EndereçoFísico -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;EndereçoFísico">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_InterfaceDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Espacial -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Espacial">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;A_Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Fisica -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Fisica">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;A_Caracteristicas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#IP -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;IP">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;CamadaDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Dados -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_Dados">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Microcontrolador"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Fabricação -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_Fabricação">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Microcontrolador"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_InterfaceDeRede -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_InterfaceDeRede">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_Rede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Mtodos -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_Mtodos">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_Dados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_ProtocolosDeRede -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_ProtocolosDeRede">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;M_Rede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Rede -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;M_Rede">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Microcontrolador"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Microcontrolador -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Microcontrolador"/>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;OSPF">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;CamadaDeRede"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Caracteristicas -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;S_Caracteristicas">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Fabricação -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;S_Fabricação">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Saída -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;S_Saída">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Sensor -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;Sensor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Altura -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Altura">
+        <rdf:type rdf:resource="&untitled-ontology-2;Espacial"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#CapacidadedeMedição -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;CapacidadedeMedição">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Comprimento -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Comprimento">
+        <rdf:type rdf:resource="&untitled-ontology-2;Espacial"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#CritérioDeSeleção -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;CritérioDeSeleção"/>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Ethernet -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Ethernet">
+        <rdf:type rdf:resource="&untitled-ontology-2;CamadaDeEnlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Frequência -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Frequência">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Largura -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Largura">
+        <rdf:type rdf:resource="&untitled-ontology-2;Espacial"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Latência -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Latência">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#LimitesdeDetecção -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;LimitesdeDetecção">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+        <TemValor rdf:datatype="&xsd;float">Inferior
+</TemValor>
+        <TemValor rdf:datatype="&xsd;float">Superior
+</TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Luminosidade -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Luminosidade">
+        <rdf:type rdf:resource="&untitled-ontology-2;Fisica"/>
+        <TemValor rdf:datatype="&xsd;float"></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_EnderecoIP -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;M_EnderecoIP">
+        <rdf:type rdf:resource="&untitled-ontology-2;EndereçoDeRede"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_EnderecoMac -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;M_EnderecoMac">
+        <rdf:type rdf:resource="&untitled-ontology-2;EndereçoFísico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Lum -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;M_Lum">
+        <rdf:type rdf:resource="&untitled-ontology-2;M_Mtodos"/>
+        <éObservadoPor rdf:resource="&untitled-ontology-2;S_Lum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Temp -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;M_Temp">
+        <rdf:type rdf:resource="&untitled-ontology-2;M_Mtodos"/>
+        <éObservadoPor rdf:resource="&untitled-ontology-2;S_Temp"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#M_Umid -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;M_Umid">
+        <rdf:type rdf:resource="&untitled-ontology-2;M_Mtodos"/>
+        <éObservadoPor rdf:resource="&untitled-ontology-2;S_Umid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Modelo_Estatístico -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Modelo_Estatístico">
+        <rdf:type rdf:resource="&untitled-ontology-2;M_Dados"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;S_Lum"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;S_Temp"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;S_Umid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF_Area0 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;OSPF_Area0">
+        <rdf:type rdf:resource="&untitled-ontology-2;OSPF"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area1"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area2"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area3"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF_Area1 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;OSPF_Area1">
+        <rdf:type rdf:resource="&untitled-ontology-2;OSPF"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF_Area2 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;OSPF_Area2">
+        <rdf:type rdf:resource="&untitled-ontology-2;OSPF"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF_Area3 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;OSPF_Area3">
+        <rdf:type rdf:resource="&untitled-ontology-2;OSPF"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#OSPF_Area4 -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;OSPF_Area4">
+        <rdf:type rdf:resource="&untitled-ontology-2;OSPF"/>
+        <comunicaCom rdf:resource="&untitled-ontology-2;OSPF_Area0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Precisão -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Precisão">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+        <TemValor></TemValor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#RangeDeMedição -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;RangeDeMedição">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Lum -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;S_Lum">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Saída"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;Luminosidade"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Temp -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;S_Temp">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Saída"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;Temperatura"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#S_Umid -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;S_Umid">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Saída"/>
+        <éOperadoPor rdf:resource="&untitled-ontology-2;Umidade"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Sensibilidade -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Sensibilidade">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Sensor_DataDeFabricacao -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Sensor_DataDeFabricacao">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Fabricação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Sensor_Fabricante -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Sensor_Fabricante">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Fabricação"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#TCP -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;TCP">
+        <rdf:type rdf:resource="&untitled-ontology-2;CamadaDeTransporte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Temperatura -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Temperatura">
+        <rdf:type rdf:resource="&untitled-ontology-2;Fisica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#Umidade -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;Umidade">
+        <rdf:type rdf:resource="&untitled-ontology-2;Fisica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/felipe/ontologies/2017/4/untitled-ontology-2#VariávelAferida -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-2;VariávelAferida">
+        <rdf:type rdf:resource="&untitled-ontology-2;S_Caracteristicas"/>
+        <temParâmetro rdf:resource="&untitled-ontology-2;Luminosidade"/>
+        <temParâmetro rdf:resource="&untitled-ontology-2;Temperatura"/>
+        <temParâmetro rdf:resource="&untitled-ontology-2;Umidade"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
