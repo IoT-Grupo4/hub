@@ -136,15 +136,48 @@
 
 %------------------------------------------------
 
-\begin{frame}
+\begin{frame}[t,fragile]
 	\frametitle{Dados Coletados - Sensores} % inserir gráficos do CSV
+\begin{figure}
+	% \centering
 
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.9\textwidth]{"../Relatorio/Artigo IoT-G4/figs/dados_sensores"}
-		% \caption{System Layers}
-		\label{dados_sensores}
- 	\end{figure}
+   \begin{tikzpicture}[baseline=0pt]
+    \begin{axis}[
+         width=\linewidth*0.45, % Scale the plot to \linewidth
+         grid=major,
+         clip=false, % avoids clipping of plot lines at the axis border
+         ylabel=Light,
+       ]
+       \addplot[mark=none]
+        table[x=x,y=light,col sep=comma] {../Relatorio/externos/dados/LDR.csv};
+     \end{axis}
+   \end{tikzpicture}
+%
+   \begin{tikzpicture}[baseline=0pt]
+	\begin{axis}[
+         width=\linewidth*0.45, % Scale the plot to \linewidth
+         grid=major,
+         clip=false, % avoids clipping of plot lines at the axis border
+         ylabel=Temperature,
+       ]
+       \addplot[mark=none]
+       table[x=x,y=temperature,col sep=comma] {../Relatorio/externos/dados/DHT.csv};
+     \end{axis}
+   \end{tikzpicture}
+%
+   \begin{tikzpicture}[baseline=0pt]
+     \begin{axis}[
+         width=\linewidth*0.45, % Scale the plot to \linewidth
+         grid=major,
+         clip=false, % avoids clipping of plot lines at the axis border
+         ylabel=Humidity,
+       ]
+       \addplot[mark=none]
+       table[x=x,y=humidity,col sep=comma] {../Relatorio/externos/dados/DHT.csv};
+     \end{axis}
+   \end{tikzpicture}
+   % \caption{Humidity read from sensor}
+\end{figure}
 
 \end{frame}
 
