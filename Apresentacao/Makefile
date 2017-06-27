@@ -1,6 +1,6 @@
 all: *.tex
-	latexmk -pdf -bibtex-cond main.tex
-	# latexmk -pdf -bibtex-cond main.tex -quiet
+	# latexmk -pdf -bibtex-cond main.tex
+	latexmk -pdf -bibtex-cond main.tex -quiet
 	# remove -quiet for better verbose
 
 clean:
